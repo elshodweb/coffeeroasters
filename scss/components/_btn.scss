@@ -1,0 +1,21 @@
+.btn {
+   font-family: 'Fraunces';
+   max-width: 217px;
+   padding: 15px 30px;
+   background: #0E8784;
+   border-radius: 6px;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   /* identical to box height, or 139% */
+   transition: all .18s ease-in-out;
+   text-align: center;
+   display: inline-block;
+   color: #FEFCF7;
+   &:hover {
+      background: #66D2CF;
+   }
+   &:active {
+      background: #E2DEDB;
+   }
+}
