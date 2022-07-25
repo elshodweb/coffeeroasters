@@ -1,0 +1,72 @@
+.states {
+   margin-bottom: 168px;
+}
+.states__wrapper {
+   padding: 0 85px;
+}
+.states__title {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   /* identical to box height, or 133% */
+   color: #83888F;
+   margin-bottom: 72px;
+}
+.states__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+}
+.states__item {
+   flex: 1 0 33%;
+}
+.states__icon {
+   margin-bottom: 45px;
+}
+.states__name {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   /* identical to box height, or 112% */
+   margin-bottom: 24px;
+   color: #333D4B;
+}
+.states__infos {}
+.states__info {
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   /* or 162% */
+   color: #333D4B;
+}
+@media only screen and (max-width:1200px) {
+   .states__wrapper {
+      padding: 0;
+   }
+   .states__item {
+      flex: 1 1 auto;
+   }
+}
+@media only screen and (max-width:760px) {
+   .states {
+      margin-bottom: 120px;
+   }
+   .states__wrapper {
+      text-align: center;
+   }
+   .states__row {
+      flex-direction: column;
+      gap: 80px;
+   }
+   .states__name {
+      font-size: 24px;
+      line-height: 36px;
+   }
+}

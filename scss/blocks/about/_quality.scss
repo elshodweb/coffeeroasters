@@ -1,0 +1,132 @@
+.quality {
+   margin-bottom: 168px;
+}
+.quality__wrapper {
+   padding: 88px 85px 178px;
+   position: relative;
+   background: #2C343E;
+   border-radius: 10px;
+}
+.quality__body {
+   max-width: 540px;
+}
+.quality__title {
+   font-family: 'Fraunces';
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   /* identical to box height, or 120% */
+   color: #FEFCF7;
+   margin-bottom: 32px;
+}
+.quality__descr {
+   font-family: 'Barlow';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   /* or 162% */
+   color: #FEFCF7;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}
+.quality__img {
+   position: absolute;
+   height: 100%;
+   width: auto;
+   overflow: hidden;
+   right: 85px;
+   top: -88px;
+}
+.quality__img img {
+   border-radius: 8px;
+   height: 100%;
+}
+@media only screen and (max-width:1230px) {
+   .quality__img {
+      height: 80%;
+      top: -60px;
+   }
+   .quality__wrapper {
+      padding: 70px 85px;
+   }
+}
+@media only screen and (max-width:1060px) {
+   .quality__wrapper {
+      padding: 67px 74px;
+   }
+   .quality__body {
+      max-width: 400px;
+   }
+   .quality__title {
+      margin-bottom: 24px;
+      font-size: 32px;
+      line-height: 48px;
+   }
+   .quality__descr {
+      font-size: 15px;
+      line-height: 25px;
+   }
+}
+@media only screen and (max-width:960px) {
+   .quality {
+      margin-top: 320px;
+   }
+   .quality__wrapper {
+      padding: 227px 74px 67px;
+   }
+   .quality__img {
+      height: 320px;
+      display: flex;
+      top: -160px;
+      align-items: flex-end;
+      left: 50%;
+      width: 100%;
+      max-width: 620px;
+      border-radius: 13px;
+      transform: translateX(-50%);
+      img {
+         height: auto;
+         width: 100%;
+      }
+   }
+   .quality__body {
+      max-width: 100%;
+      text-align: center;
+   }
+   .quality__title {
+      text-align: center;
+   }
+}
+@media only screen and (max-width:960px) {
+   .quality {
+      margin-top: 250px;
+   }
+   .quality__img {
+      max-width: 80%;
+   }
+}
+@media only screen and (max-width:500px) {
+   .quality {
+      margin-bottom: 120px;
+      margin-top: 220px;
+   }
+   .quality__wrapper {
+      padding: 160px 24px 60px;
+   }
+   .quality__title {
+      font-size: 28px;
+      line-height: 28px;
+   }
+   .quality__img {
+      height: 40%;
+      top: -20%;
+   }
+}
+@media only screen and (max-width:366px) {
+   .quality {
+      margin-top: 160px;
+   }
+   .quality__title {
+      font-size: 24px;
+   }
+}
