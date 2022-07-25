@@ -1,5 +1,11 @@
 .how {
-   padding-bottom: 200px;
+   margin-bottom: 200px;
+}
+.how__wrapper{
+   background: #2C343E;
+   border-radius: 10px;
+   padding: 97px 40px 70px;
+
 }
 .how__title {
    font-family: 'Fraunces';
@@ -10,7 +16,9 @@
    color: #83888F;
    margin-bottom: 40px;
 }
-.how__body {}
+.how__body {
+
+}
 .how__decoration {
    width: 100%;
    display: flex;
@@ -68,7 +76,7 @@
    font-size: 32px;
    line-height: 36px;
    /* or 112% */
-   color: #333D4B;
+   color: #FFFFFF;
    margin-bottom: 42px;
    max-width: 285px;
 }
@@ -79,11 +87,9 @@
    font-size: 16px;
    line-height: 26px;
    /* or 162% */
-   color: #333D4B;
+   color: #FFFFFF;
 }
-.how__btn {}
-.btn {}
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:850px) {
    .how__decoration {
       display: none;
    }
@@ -117,4 +123,13 @@
    .how__card {
       padding: 0 20px;
    }
+   .how__wrapper{
+      padding:20px 0 ;
+   }
+}
+@media only screen and (max-width:375px) {
+.how__name{
+   font-size: 28px;
+   line-height: 32px;
+}
 }

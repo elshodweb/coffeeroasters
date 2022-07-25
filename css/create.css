@@ -359,15 +359,15 @@ body {
 .hero__wrapper {
   padding: 137px 85px;
   border-radius: 10px;
-  background: url(../../../img/about-img/hero.jpg) center/cover no-repeat;
+  background: url(../../../img/create-img/hero.jpg) center/cover no-repeat;
 }
 
 .hero__title {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 72px;
+  line-height: 72px;
   /* identical to box height, or 120% */
   margin-bottom: 24px;
   color: #FEFCF7;
@@ -390,10 +390,10 @@ body {
   }
   .hero__wrapper {
     padding: 118px 58px;
-    background: url(../../../img/about-img/hero-mini.jpg) center right/cover no-repeat;
+    background: url(../../../img/create-img/hero-mini.jpg) center right/cover no-repeat;
   }
   .hero__title {
-    font-size: 32px;
+    font-size: 48px;
     line-height: 48px;
   }
   .hero__descr {
@@ -410,329 +410,151 @@ body {
     padding: 111px 24px 87px;
   }
   .hero__title {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 34px;
+    line-height: 40px;
   }
 }
-.our {
-  margin-bottom: 168px;
-}
-
-.our__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 125px;
+.how {
+  margin-bottom: 200px;
 }
 
-.our__img {
-  flex: 1 0 40%;
-  overflow: hidden;
-  border-radius: 8px;
-  height: 520px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.our__img img {
-  height: 100%;
-  -o-object-position: center center;
-     object-position: center center;
-}
-
-.our__body {
-  max-width: 540px;
-}
-
-.our__title {
-  font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  /* identical to box height, or 120% */
-  margin-bottom: 32px;
-  color: #333D4B;
-}
-
-.our__descr {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-  color: #333D4B;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
-
-@media only screen and (max-width: 1000px) {
-  .our__wrapper {
-    gap: 70px;
-  }
-  .our__img {
-    height: 470px;
-  }
-}
-@media only screen and (max-width: 780px) {
-  .our {
-    margin-bottom: 150px;
-  }
-  .our__title {
-    font-size: 32px;
-    line-height: 48px;
-  }
-  .our__descr {
-    font-size: 15px;
-    line-height: 25px;
-  }
-}
-@media only screen and (max-width: 735px) {
-  .our__wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
-  .our__img {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-  .our__img img {
-    height: auto;
-    width: 100%;
-  }
-  .our__descr {
-    max-width: 450px;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .our {
-    margin-bottom: 120px;
-  }
-  .our__wrapper {
-    gap: 48px;
-  }
-  .our__title {
-    font-size: 32px;
-    line-height: 48px;
-    margin-bottom: 30px;
-  }
-}
-.quality {
-  margin-bottom: 168px;
-}
-
-.quality__wrapper {
-  padding: 88px 85px 178px;
-  position: relative;
+.how__wrapper {
   background: #2C343E;
   border-radius: 10px;
+  padding: 97px 40px 70px;
 }
 
-.quality__body {
-  max-width: 540px;
-}
-
-.quality__title {
+.how__title {
   font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  /* identical to box height, or 120% */
-  color: #FEFCF7;
-  margin-bottom: 32px;
-}
-
-.quality__descr {
-  font-family: "Barlow";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-  color: #FEFCF7;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
-
-.quality__img {
-  position: absolute;
-  height: 100%;
-  width: auto;
-  overflow: hidden;
-  right: 85px;
-  top: -88px;
-}
-
-.quality__img img {
-  border-radius: 8px;
-  height: 100%;
-}
-
-@media only screen and (max-width: 1230px) {
-  .quality__img {
-    height: 80%;
-    top: -60px;
-  }
-  .quality__wrapper {
-    padding: 70px 85px;
-  }
-}
-@media only screen and (max-width: 1060px) {
-  .quality__wrapper {
-    padding: 67px 74px;
-  }
-  .quality__body {
-    max-width: 400px;
-  }
-  .quality__title {
-    margin-bottom: 24px;
-    font-size: 32px;
-    line-height: 48px;
-  }
-  .quality__descr {
-    font-size: 15px;
-    line-height: 25px;
-  }
-}
-@media only screen and (max-width: 960px) {
-  .quality {
-    margin-top: 320px;
-  }
-  .quality__wrapper {
-    padding: 227px 74px 67px;
-  }
-  .quality__img {
-    height: 320px;
-    display: flex;
-    top: -160px;
-    align-items: flex-end;
-    left: 50%;
-    width: 100%;
-    max-width: 620px;
-    border-radius: 13px;
-    transform: translateX(-50%);
-  }
-  .quality__img img {
-    height: auto;
-    width: 100%;
-  }
-  .quality__body {
-    max-width: 100%;
-    text-align: center;
-  }
-  .quality__title {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 960px) {
-  .quality {
-    margin-top: 250px;
-  }
-  .quality__img {
-    max-width: 80%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .quality {
-    margin-bottom: 120px;
-    margin-top: 220px;
-  }
-  .quality__wrapper {
-    padding: 160px 24px 60px;
-  }
-  .quality__title {
-    font-size: 28px;
-    line-height: 28px;
-  }
-  .quality__img {
-    height: 40%;
-    top: -20%;
-  }
-}
-@media only screen and (max-width: 366px) {
-  .quality {
-    margin-top: 160px;
-  }
-  .quality__title {
-    font-size: 24px;
-  }
-}
-.states {
-  margin-bottom: 168px;
-}
-
-.states__wrapper {
-  padding: 0 85px;
-}
-
-.states__title {
-  font-family: "Fraunces";
-  font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
   /* identical to box height, or 133% */
   color: #83888F;
-  margin-bottom: 72px;
+  margin-bottom: 40px;
 }
 
-.states__row {
+.how__decoration {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  margin-bottom: 67px;
 }
 
-.states__item {
-  flex: 1 0 33%;
+.how__line {
+  display: flex;
+  align-items: center;
+  height: 2px;
+  width: 33.33%;
+  background: #FDD6BA;
+  position: relative;
 }
 
-.states__icon {
-  margin-bottom: 45px;
+.how__line:first-child {
+  width: calc(33.33% - 30px) !important;
 }
 
-.states__name {
+.how__line::before {
+  position: absolute;
+  z-index: 2;
+  left: 100%;
+}
+
+.how__line::before,
+.how__decoration::before {
+  content: "";
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  height: 31px;
+  width: 31px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.how__cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-bottom: 64px;
+  gap: 20px;
+}
+
+.how__card {
+  width: 33%;
+  text-align: left;
+}
+
+.how__numb {
   font-family: "Fraunces";
-  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.how__name {
+  font-family: "Fraunces";
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
-  /* identical to box height, or 112% */
-  margin-bottom: 24px;
-  color: #333D4B;
+  /* or 112% */
+  color: #FFFFFF;
+  margin-bottom: 42px;
+  max-width: 285px;
 }
 
-.states__info {
+.how__descr {
+  max-width: 285px;
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   /* or 162% */
-  color: #333D4B;
+  color: #FFFFFF;
 }
 
-@media only screen and (max-width: 1200px) {
-  .states__wrapper {
-    padding: 0;
+@media only screen and (max-width: 850px) {
+  .how__decoration {
+    display: none;
   }
-  .states__item {
-    flex: 1 1 auto;
+  .how__cards {
+    flex-direction: column;
   }
-}
-@media only screen and (max-width: 760px) {
-  .states {
-    margin-bottom: 120px;
-  }
-  .states__wrapper {
+  .how__title {
     text-align: center;
   }
-  .states__row {
-    flex-direction: column;
-    gap: 80px;
+  .how__card {
+    text-align: center;
+    width: 100%;
+    padding: 0px 40px;
+    margin-top: 80px;
   }
-  .states__name {
-    font-size: 24px;
-    line-height: 36px;
+  .how__card + .how__card {
+    margin-top: 56px;
+  }
+  .how__name {
+    max-width: 100%;
+  }
+  .how__descr {
+    max-width: 100%;
+  }
+  .how__btn {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .how__card {
+    padding: 0 20px;
+  }
+  .how__wrapper {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .how__name {
+    font-size: 28px;
+    line-height: 32px;
   }
 }
