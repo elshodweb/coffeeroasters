@@ -94,6 +94,27 @@ body {
     padding: 0 40px;
   }
 }
+::-moz-selection {
+  background: #fff;
+  color: #000;
+}
+::selection {
+  background: #fff;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: rgb(177, 177, 177);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid rgb(177, 177, 177);
+  background: #000;
+}
+
 @media only screen and (max-width: 520px) {
   .container {
     padding: 0 24px;
@@ -685,134 +706,5 @@ body {
 @media only screen and (max-width: 330px) {
   .why__wrapper {
     padding-bottom: 700px;
-  }
-}
-.how {
-  padding-bottom: 200px;
-}
-
-.how__title {
-  font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  /* identical to box height, or 133% */
-  color: #83888F;
-  margin-bottom: 40px;
-}
-
-.how__decoration {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 67px;
-}
-
-.how__line {
-  display: flex;
-  align-items: center;
-  height: 2px;
-  width: 33.33%;
-  background: #FDD6BA;
-  position: relative;
-}
-
-.how__line:first-child {
-  width: calc(33.33% - 30px) !important;
-}
-
-.how__line::before {
-  position: absolute;
-  z-index: 2;
-  left: 100%;
-}
-
-.how__line::before,
-.how__decoration::before {
-  content: "";
-  background: #FEFCF7;
-  border: 2px solid #0E8784;
-  height: 31px;
-  width: 31px;
-  display: inline-block;
-  border-radius: 50%;
-}
-
-.how__cards {
-  display: flex;
-  align-items: stretch;
-  justify-content: flex-start;
-  margin-bottom: 64px;
-  gap: 20px;
-}
-
-.how__card {
-  width: 33%;
-  text-align: left;
-}
-
-.how__numb {
-  font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 72px;
-  color: #FDD6BA;
-  margin-bottom: 38px;
-}
-
-.how__name {
-  font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 36px;
-  /* or 112% */
-  color: #333D4B;
-  margin-bottom: 42px;
-  max-width: 285px;
-}
-
-.how__descr {
-  max-width: 285px;
-  font-family: "Barlow";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-  color: #333D4B;
-}
-
-@media only screen and (max-width: 750px) {
-  .how__decoration {
-    display: none;
-  }
-  .how__cards {
-    flex-direction: column;
-  }
-  .how__title {
-    text-align: center;
-  }
-  .how__card {
-    text-align: center;
-    width: 100%;
-    padding: 0px 40px;
-    margin-top: 80px;
-  }
-  .how__card + .how__card {
-    margin-top: 56px;
-  }
-  .how__name {
-    max-width: 100%;
-  }
-  .how__descr {
-    max-width: 100%;
-  }
-  .how__btn {
-    margin: 0 auto;
-    display: block;
-  }
-}
-@media only screen and (max-width: 750px) {
-  .how__card {
-    padding: 0 20px;
   }
 }

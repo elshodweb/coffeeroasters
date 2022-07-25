@@ -94,6 +94,27 @@ body {
     padding: 0 40px;
   }
 }
+::-moz-selection {
+  background: #fff;
+  color: #000;
+}
+::selection {
+  background: #fff;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: rgb(177, 177, 177);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid rgb(177, 177, 177);
+  background: #000;
+}
+
 @media only screen and (max-width: 520px) {
   .container {
     padding: 0 24px;
