@@ -578,3 +578,139 @@ body {
     line-height: 32px;
   }
 }
+.questions {
+  margin-bottom: 168px;
+}
+
+.questions__wrapper {
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 125px;
+}
+
+.questions__nav-item {
+  padding: 24px 0;
+  width: 255px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
+  color: #333D4B;
+}
+.questions__nav-item span {
+  color: #0E8784;
+}
+.questions__nav-item:hover {
+  opacity: 1;
+}
+.questions__nav-item:active {
+  opacity: 0.7;
+}
+.questions__nav-item + .questions__nav-item {
+  border-top: 1px solid #83888F;
+}
+.questions__nav-item span {
+  margin-right: 28px;
+}
+
+.questions__block {
+  margin-bottom: 88px;
+}
+
+.questions__quest {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888F;
+  margin-bottom: 56px;
+}
+
+.questions__variants {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 23px;
+}
+
+.questions__variant {
+  max-width: 228px;
+  min-height: 250px;
+  padding: 32px 28px;
+  background: #F4F1EB;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #333D4B;
+}
+.questions__variant:hover {
+  background: #FDD6BA;
+}
+.questions__variant:active {
+  background: #0E8784;
+  color: #fff;
+}
+
+.questions__name {
+  font-family: "Fraunces";
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+}
+
+.questions__info {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+}
+
+.questions__answer {
+  padding: 27px 64px;
+  background: #2C343E;
+  border-radius: 10px;
+  margin-bottom: 88px;
+}
+
+.questions__title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: block;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.questions__descr {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  max-width: 730px;
+  color: #FFFFFF;
+}
+.questions__descr strong {
+  color: #0E8784;
+}
+
+.questions__btn-block {
+  text-align: right;
+}
